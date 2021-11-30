@@ -1,26 +1,92 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-
-#nav-container {
-    background-color: rgb(197, 206, 211);
-    padding: 20px;
-}
-
-#nav-container nav ul {
+header {
+    padding: 20px 35px;
+    background-color: red;
     display: flex;
-    flex-direction: row;
-    width: 50%;
     justify-content: space-between;
-    margin: 0 auto;
-}
-
-#nav-container nav ul li {
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    /* add alongside your existing declarations */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    cursor: pointer;
-}
+  
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+/* nav-container styling */
+
 
 .project1-img {
     width: 50%;
+}
+.img-me {
+    width:30%;
+    border-radius: 50%;
+    border: 3px solid rgb(129, 129, 129);
+}
+
+.image-container {
+    background-color: rgb(8, 34, 31);
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    padding: 50px;
+}
+
+#contact-me section {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 585px) {
+    header nav ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 541.5px) {
+    header {
+        justify-content: center;
+    }
 }

@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="style.css"/>
-    <title>Blakes Portfolio</title>
+    <title>Personal Portfolio Website</title>
+    <link rel='stylesheet' href="style.css" />
 </head>
+
 <body>
-    <div id="nav-container">
+    <header>
+        <h1>
+            <a href="/">
+                Blake Elliott
+            </a>
+        </h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>My Work</li>
-                <li>Contact Me</li>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
             </ul>
         </nav>
-    </div>
-    <div id="main-container">
-        <h1 id='title'>Blake Elliott</h1>
-        <img src="#" alt="">
+    </header>
+    <div class="image-container">
+        <img class="img-me" src="images/portfolio.jpg" alt="my portfolio pic">
     </div>
 
-    <div id="about-me">
+    <div id="about-me" class="content">
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nisi? Quo voluptas sunt sapiente, deserunt mollitia explicabo itaque ducimus fugiat quam saepe fugit labore, exercitationem rem tempora vero ad voluptate, commodi maxime a amet? Nemo cupiditate eius dolor dolores vel dolore cumque eaque reprehenderit id, porro nulla mollitia ratione consequuntur totam quibusdam sequi ex, corrupti nostrum blanditiis. Repellat corrupti aliquam vitae odit quaerat voluptatibus porro. Aperiam fuga alias laborum qui quisquam sunt ab rerum sit similique asperiores impedit nisi optio voluptates eligendi neque corporis vitae, deserunt deleniti saepe quod velit at. Expedita laborum quidem laboriosam reiciendis eligendi esse nihil natus!</p>
+        <p>Hello my name is Blake Elliott I am a 39 year old Realtor currently living in Fort Worth Tx excited for a new
+            carreer in web development. I was raised in Texas lived in Colorado, Califorina and Tennesse. I am married
+            to a lovely women named Samantha with whom I share 3 children with.
+        </p>
     </div>
 
-    <div id="my-work">
+    <div id="my-work" class="content">
         <h2>My Work</h2>
         <div>
-            <img class="project1-img" src="images/code-refractor.png" alt="code-refractor project">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consequatur ipsam voluptatum dolores ab modi enim blanditiis nostrum quae inventore earum rem esse eius, culpa alias! Excepturi suscipit assumenda nulla perferendis cumque aut rerum ut consequuntur. Earum hic nostrum quam sapiente quod fuga dolorem ducimus, repellat doloribus quaerat. Ab, expedita!</p>
+            <a href='https://blaker817.github.io/coderefractor/'><img class="project1-img"
+                    src="images/code-refractor.png" alt="code-refractor project"></a>
+            <p>Code Refractor Challenge. Cleaned up css code and debugged index file. Took advantage of parent elements
+                to make css code more dry and readable.</p>
         </div>
     </div>
 
-    <div id="contact-me">
+    <!--Contact line start-->
+    <div id="contact-me" class="content">
         <h2>Contact Me</h2>
+        <br />
+        <section>
+            <form>
+                <input placeholder="Send Me a Message"></input>
+                <button>Send</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Email:</h3>
+            <br />
+            <a href="mailto:blakerelliott@yahoo.com">blakerelliott@yahoo.com</a>
+        </section>
     </div>
 
 </body>
+
 </html>
