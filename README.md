@@ -5,7 +5,7 @@
 Created a website profile page to show my work, about me, and how to contact me.
 
 ## GitHub Link:
-git@github.com:Blaker817/firstportfolio.git
+https://github.com/Blaker817/firstportfolio.git
 ## URL:
 https://blaker817.github.io/firstportfolio/
 
