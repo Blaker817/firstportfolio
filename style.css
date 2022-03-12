@@ -58,6 +58,7 @@ header {
 
 .project1-img {
     width: 50%;
+    min-width: 300px;
 }
 .img-me {
     width:30%;
@@ -77,6 +78,11 @@ header {
 
 #contact-me section {
     margin-bottom: 30px;
+}
+
+.project2-img {
+  width: 50%;
+  min-width: 300px;
 }
 
 @media screen and (max-width: 585px) {
